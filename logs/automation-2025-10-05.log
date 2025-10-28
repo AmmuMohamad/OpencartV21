@@ -1,0 +1,45 @@
+20:56:27.710 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:26)oggger - ******** Home page********
+21:06:10.519 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  D:\Users\M AMMU\eclipse-workspace2\OpensourceV21\master.xml
+
+21:06:14.682 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:25)oggger - ******** Starting TC_003_LoginDDT********
+21:06:14.682 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:28)oggger - ******** Home page********
+21:06:15.266 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:32)oggger - ******** Loginpage********
+21:06:15.475 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:37)oggger - ******** AccountPage********
+21:06:16.001 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:44)oggger - ******** PageExists********
+21:06:16.009 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:25)oggger - ******** Starting TC_003_LoginDDT********
+21:06:16.011 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:28)oggger - ******** Home page********
+21:06:26.102 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:25)oggger - ******** Starting TC_003_LoginDDT********
+21:06:26.102 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:28)oggger - ******** Home page********
+21:08:57.762 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  D:\Users\M AMMU\eclipse-workspace2\OpensourceV21\master.xml
+
+21:09:00.927 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:25)oggger - ******** Starting TC_003_LoginDDT********
+21:09:00.929 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:28)oggger - ******** Home page********
+21:09:01.495 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:32)oggger - ******** Loginpage********
+21:09:01.694 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:37)oggger - ******** AccountPage********
+21:09:12.330 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:25)oggger - ******** Starting TC_003_LoginDDT********
+21:09:12.330 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:28)oggger - ******** Home page********
+21:09:13.406 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:25)oggger - ******** Starting TC_003_LoginDDT********
+21:09:13.408 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:28)oggger - ******** Home page********
+21:23:52.978 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  D:\Users\M AMMU\eclipse-workspace2\OpensourceV21\master.xml
+
+21:23:56.395 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:29)oggger - ******** Starting TC_003_LoginDDT********
+21:23:56.395 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:32)oggger - ******** Home page********
+21:23:56.964 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:36)oggger - ******** Loginpage********
+21:23:57.179 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:41)oggger - ******** AccountPage********
+21:24:08.180 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:29)oggger - ******** Starting TC_003_LoginDDT********
+21:24:08.182 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:32)oggger - ******** Home page********
+21:24:18.347 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:29)oggger - ******** Starting TC_003_LoginDDT********
+21:24:18.349 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:32)oggger - ******** Home page********
+21:40:59.221 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  D:\Users\M AMMU\eclipse-workspace2\OpensourceV21\master.xml
+
+21:41:04.053 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:29)oggger - ******** Starting TC_003_LoginDDT********
+21:41:04.057 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:32)oggger - ******** Home page********
+21:41:04.664 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:36)oggger - ******** Loginpage********
+21:41:04.888 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:41)oggger - ******** AccountPage********
+21:41:06.555 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:29)oggger - ******** Starting TC_003_LoginDDT********
+21:41:06.555 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:32)oggger - ******** Home page********
+21:41:16.694 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:29)oggger - ******** Starting TC_003_LoginDDT********
