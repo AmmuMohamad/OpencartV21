@@ -27,7 +27,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							
-							<suiteXmlFile>cross-browsertesting.xml</suiteXmlFile>
+							<suiteXmlFile>master.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
