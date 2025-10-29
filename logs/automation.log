@@ -12,3 +12,7 @@
 20:18:33.880 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
 20:18:34.008 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
 20:18:34.070 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
+15:32:47.009 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
+15:32:47.011 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
+15:32:47.205 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
+15:32:47.293 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link

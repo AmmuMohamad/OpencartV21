@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Oct 26 20:18:29 IST 2025</td>
+<td>Started on:</td><td>Wed Oct 29 15:32:35 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25578 ms)</td>
+<tr><td>Total time:</td><td>32 seconds (32924 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -79,11 +79,10 @@ function toggleAllBoxes() {
 <td title='testCases.TC001_AccountRegistrationTest.tearDown()'><b>tearDown</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
 <td><div><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [22739b543a27f52e0a5719a5f20f6e45, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 141.0.3537.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57666}, msedge: {msedgedriverVersion: 141.0.3537.71 (e9128b790533..., userDataDir: C:\Users\MAMMU~1\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57666/devtoo..., se:cdpVersion: 141.0.3537.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 22739b543a27f52e0a5719a5f20f6e45
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edd94e384bcf625df6e29445f22db0ac, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MAMMU~1\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54279/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
@@ -91,17 +90,17 @@ Session ID: 22739b543a27f52e0a5719a5f20f6e45
 	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
 	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:442)
 	at testBase.Baseclass.tearDown(Baseclass.java:140)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@51132bf4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@102e21cf[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000024eda2ab920@1411a712]] rejected from java.util.concurrent.ThreadPoolExecutor@26c6b06f[Shutting down, pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 103]
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@1edaa6a8[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5fe7ac93[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000029f012dda30@5bd833b7]] rejected from java.util.concurrent.ThreadPoolExecutor@31b30194[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 90]
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
 	... 25 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@51132bf4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@102e21cf[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000024eda2ab920@1411a712]] rejected from java.util.concurrent.ThreadPoolExecutor@26c6b06f[Shutting down, pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 103]
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@1edaa6a8[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5fe7ac93[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000029f012dda30@5bd833b7]] rejected from java.util.concurrent.ThreadPoolExecutor@31b30194[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 90]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
@@ -113,14 +112,13 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 3 more
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1597335702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1597335702'><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1023946727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1023946727'><pre>org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [22739b543a27f52e0a5719a5f20f6e45, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 141.0.3537.99, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57666}, msedge: {msedgedriverVersion: 141.0.3537.71 (e9128b790533..., userDataDir: C:\Users\MAMMU~1\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57666/devtoo..., se:cdpVersion: 141.0.3537.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 22739b543a27f52e0a5719a5f20f6e45
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edd94e384bcf625df6e29445f22db0ac, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\MAMMU~1\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54279/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
@@ -137,7 +135,7 @@ Session ID: 22739b543a27f52e0a5719a5f20f6e45
 	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
 	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -146,13 +144,13 @@ Session ID: 22739b543a27f52e0a5719a5f20f6e45
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@51132bf4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@102e21cf[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000024eda2ab920@1411a712]] rejected from java.util.concurrent.ThreadPoolExecutor@26c6b06f[Shutting down, pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 103]
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@1edaa6a8[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5fe7ac93[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000029f012dda30@5bd833b7]] rejected from java.util.concurrent.ThreadPoolExecutor@31b30194[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 90]
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
 	... 25 more
-Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@51132bf4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@102e21cf[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000024eda2ab920@1411a712]] rejected from java.util.concurrent.ThreadPoolExecutor@26c6b06f[Shutting down, pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 103]
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@1edaa6a8[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5fe7ac93[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x0000029f012dda30@5bd833b7]] rejected from java.util.concurrent.ThreadPoolExecutor@31b30194[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 90]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
@@ -166,7 +164,7 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 	... 3 more
 </pre></div></td>
 <td>0</td>
-<td>testCases.TC001_AccountRegistrationTest@512baff6</td></tr>
+<td>testCases.TC001_AccountRegistrationTest@15713d56</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -180,13 +178,13 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 <td title='testCases.TC001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
 <td><div><pre>java.lang.AssertionError: null
 	at testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:52)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1145707693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1145707693'><pre>java.lang.AssertionError: null
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1846830003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1846830003'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
 	at testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:52)
@@ -200,7 +198,7 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -209,10 +207,10 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
 <td>20</td>
-<td>testCases.TC001_AccountRegistrationTest@512baff6</td></tr>
+<td>testCases.TC001_AccountRegistrationTest@15713d56</td></tr>
 </table><p>
 </body>
 </html>
