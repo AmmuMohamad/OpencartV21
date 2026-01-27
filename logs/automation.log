@@ -1,18 +1,30 @@
-20:05:58.186 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:29)oggger - Clicked on my Register Link
-20:05:58.205 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:31)oggger - Providing customer details ....
-20:05:59.433 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:39)oggger - Validating expected message
-20:06:04.524 [main] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:55)oggger - ****** Finished TC001_AccountRegistrationTest *****
-20:06:07.589 [main] INFO  testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:18)oggger - ************** Starting TC_002_LoginTest******
-20:06:09.163 [main] INFO  testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:38)oggger - ************** Finished TC_002_LoginTest******
-20:07:35.760 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
-20:07:36.155 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
-20:07:36.349 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
-20:07:36.489 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
-20:18:33.407 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
-20:18:33.880 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
-20:18:34.008 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
-20:18:34.070 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
-15:32:47.009 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
-15:32:47.011 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:21)oggger - ****** Starting TC001_AccountRegistrationTest *****
-15:32:47.205 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
-15:32:47.293 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:27)oggger - Clicked on my account Link
+20:00:10.354 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:44)oggger - ************** Accountpage******
+20:00:10.485 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:46)oggger - ************** AccountPageExists******
+20:00:10.491 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:53)oggger - ************** Finished TC_002_LoginTest******
+20:00:10.517 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+20:00:20.861 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+20:00:31.071 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+14:22:04.307 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  D:\Users\M AMMU\eclipse-workspace_practice\OpencartV21\cross-browsertesting.xml
+
+14:22:19.419 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+14:22:20.266 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:32)oggger - ************** homepage******
+14:22:20.270 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:35)oggger - ************** loginpage******
+14:22:21.053 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:41)oggger - ************** cliked login******
+14:22:21.055 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:44)oggger - ************** Accountpage******
+14:22:21.218 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:46)oggger - ************** AccountPageExists******
+14:22:21.221 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:53)oggger - ************** Finished TC_002_LoginTest******
+14:22:21.228 [TestNG-tests-2] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+14:23:07.439 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  D:\Users\M AMMU\eclipse-workspace_practice\OpencartV21\master.xml
+
+14:23:12.181 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+14:23:12.855 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:32)oggger - ************** homepage******
+14:23:12.861 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:35)oggger - ************** loginpage******
+14:23:13.470 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:41)oggger - ************** cliked login******
+14:23:13.473 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:44)oggger - ************** Accountpage******
+14:23:13.596 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:46)oggger - ************** AccountPageExists******
+14:23:13.603 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:53)oggger - ************** Finished TC_002_LoginTest******
+14:23:13.628 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+14:23:23.907 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********
+14:23:34.175 [main] INFO  testCases.TC003_LoginDDT2.verify_loginDDT(TC003_LoginDDT2.java:26)oggger - ******** Starting TC_003_LoginDDT********

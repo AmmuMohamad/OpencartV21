@@ -6,25 +6,24 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviders {
 	
+	
 	@DataProvider(name="LoginData")
-	public String[][] getData() throws IOException{
+	public Object[][] getData() throws IOException{
 		
-		String path=".\\testData\\Opencart_Testdata.xlsx";
+		String path=System.getProperty("user.dir")+"/testData/Opencart_Testdata.xlsx";
 		
-		ExcelUtilities xlutil=new ExcelUtilities(path);
+		ExcelUtils.loadExcel(path, "Sheet1");
+		int rowCount=ExcelUtils.getRowCount();
+		Object[][] data=new Object[rowCount-1][2];
 		
-		int totalrows=xlutil.getRowCount("sheet1");
-		int totalcols=xlutil.getCellCount("sheet1",1);
-		
-		String  logindata[][]=new String[totalrows][totalcols];
-		
-		for(int i=1;i<totalrows;i++) {
-			for(int j=0;j<totalcols;j++) {
+		for(int i=1;i<rowCount;i++) {
 				
-				logindata[i-1][j]=xlutil.getCellData("sheet1", i, j);
-			}
+				data[i-1][0]=ExcelUtils.getCellDataString(i, 0);   //username
+				data[i-1][1]=ExcelUtils.getCellDataString(i, 1);   //password
+				
 		}
-		return logindata;//returning two dimension array
+		
+		return data;//returning two dimension array
 		
 	}
 

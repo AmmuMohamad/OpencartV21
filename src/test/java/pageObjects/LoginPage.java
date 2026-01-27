@@ -21,7 +21,7 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//form[@id='form-login']//div[2]//a")
 	WebElement inforgottenPassword;
 	
-	@FindBy(xpath="//button[text()='Login']")
+	@FindBy(xpath="//form[contains(@action,'login')]/input[@type=\"submit\"]")
 	WebElement inLogin;
 //	
 //	@FindBy(xpath="//a[text()='Account']")

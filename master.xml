@@ -11,9 +11,9 @@
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<class name="testCases.TC001_AccountRegistrationTest"/> 
-			<class name="testCases.TC002_LoginTest" />
-			<!-- <class name="testCases.TC003_LoginDDT"/ -->
+			<!-- class name="testCases.TC001_AccountRegistrationTest"/--> 
+			<!-- class name="testCases.TC002_LoginTest" /-->
+			<class name="testCases.TC003_LoginDDT2"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -16,7 +16,7 @@ public class MyAccountPage extends BasePage{
 		// TODO Auto-generated constructor stub
 	}
 
-	@FindBy(xpath="//h1[text()='My Account']")
+	@FindBy(xpath="//h2[text()='My Account']")
 	WebElement msgHeading;
 	
 //	@FindBy(xpath="//div[@class='list-group mb-3']/a[text()='Logout']")
